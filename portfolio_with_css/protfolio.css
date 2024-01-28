@@ -1,0 +1,87 @@
+#header{
+    background-color: #ff8000;
+    text-align: center;
+    padding: 14px;
+    margin-block-end: 0.5em;
+    position: sticky;
+}
+#novbar{
+    overflow: hidden;
+    background-color:#0080ff;
+    padding: 10px;
+    margin-block-end: 1em;
+    position: sticky;
+}
+
+a{
+    text-decoration: none;
+}
+
+#novbar a{
+    padding: 5px;
+    margin-right: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+/* Change the link color on hover */
+#novbar a:hover {
+    background-color: white;
+    color: black;
+  }
+#main_container{
+    background-color:white;
+    height: 800px;
+    padding: 10px;
+    margin-block-end: 1em;
+    position: sticky;
+    
+}
+.left_container{
+    float: left;
+    background-color:#ff8000;
+    border: groove;
+    height:780px;
+    width: 30%;
+    text-align: justify;
+    padding: 10px;
+    position: sticky;
+}
+.profile_img{
+    border-radius: 15px 50px;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    position: center;
+}
+.headlines{
+    font-family: "Audiowide", sans-serif;
+    color:blue;
+}
+.all_info{
+    font-family: "Trirong", serif; 
+}
+.right_container{
+    float: right;
+    border: groove;
+    height:780px;
+    width: 65%;
+    border: 4px;
+    text-align: justify;
+    padding: 10px;
+    overflow: scroll;
+}
+.my_name{
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+#footer{
+    background-color:#0080ff;
+    padding: 10px;
+    position: sticky;
+    text-align: center;
+}
+.footer_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;/*horizontal novber*/
+}
